@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+
+  
+  <meta name="msapplication-tap-highlight" content="no">
+  
+
+  <title>Portfolio</title> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <style>
+   
+    .horizontal-headings {
+      display: flex; 
+      justify-content: center;
+      gap: 10px; 
+    }
+   
+    .blue-button {
+  text-align: center;
+  color: rgb(8, 8, 8); 
+  border-radius: 15px; 
+  padding: 10px 20px; 
+  font-size: 18px; 
+
+  display: inline-block; 
+  transition: background-color 0.3s ease; 
+}
+
+.blue-button:hover {
+  background-color: rgb(0, 255, 251); /* Darker blue on hover */
+}
+
+
+    .horizontal-headings h3 {
+      margin: 0; 
+      padding: 10px 20px; 
+      border-radius: 5px; 
+    }
+    .weird-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-card {
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  margin: 10px;
+  position: relative;
+}
+
+.art-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.art-card:hover img {
+  transform: scale(1.1);
+}
+
+  </style> 
+
+<link href="main.css" rel="stylesheet"></head>
+
+<body class="">
+
+<div class="background-color-layer" style="background-image: url('assets/images/img-01.jpg')"
+></div>
+<main class="content-wrapper">
+  <header class="white-text-container section-container">
+    <div class="text-center">
+      <h1>I am Sree Krishnnaa</h1>
+      <p>Student -Developer -VisPract</p>
+      
+      <div class="horizontal-headings">
+        <a href="#a" title=""><h3>About me</h3></a>
+
+        <a href="#c" title=""><h3>Project & Description</h3></a>
+        <a href="#d" title=""><h3>Education</h3></a>
+        <a href="#e" title=""><h3>Skill/Proficiency</h3></a>
+        <a href="#f" title=""><h3>Social Network & Contact</h3></a>
+
+
+      </div>
+    </div>
+  </header>
+  
+
+
+
+
+ 
+ <div class="container">
+   <div class="row">
+     <div class="col-xs-12">
+
+        <div id="a" class="card">
+          <div class="card-block">
+            <h2>About me</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <p><img src="./assets/images/img-01.jpg" class="img-responsive" alt=""></p>
+              </div>
+              <div class="col-md-8">
+
+              <h2><b>Hai ..I'm Sree Krishnnaa, a passionate student at Karpagam College of Engineering.Embraced with diverse experiences to broaden my horizons. I'm dedicated to personal and professional development, always eager to learn and make a positive impact.</b></h2>
+              <a href="https://drive.google.com/file/d/1V3Uue5nPVye8mwe3AqC3uMOxwp5gKh9U/view?usp=sharing" class="btn btn-primary">Download Resume</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="c">
+          <div class="card-block">
+            <h2>Projects</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./assets/images/img-02.jpg" class="img-responsive" alt="">
+                <h3 class="h5">Hound Vault</h3>
+                <p>January 2024</p>
+                <a href="https://hound-vault.vercel.app/" class="btn btn-primary">View Project</a>
+              </div>
+              
+              <div class="col-md-4">
+                <img src="./assets/images/img-03.jpg" class="img-responsive" alt="">
+                <h3 class="h5">Bilingual E-Bill Generator</h3>
+                <p>December 2022</p>
+                <a href="https://github.com/SreeKrishnnaa/E-bill-generator" class="btn btn-primary">View Project</a>
+
+              </div>
+              <div class="col-md-4">
+                <img src="./assets/images/img-04.jpg" class="img-responsive" alt="">
+                <h3 class="h5">Cine-Ticket Reservation</h3>
+                <p>June 2023</p>
+                <a href="https://github.com/SreeKrishnnaa/miniproject/tree/main/717821E151/CineTicketReservation" class="btn btn-primary">View Project</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Description</h2>
+            <div class="work-experience">
+              <h3 class="h5 date-title">Hound Vault</h3>
+              
+
+              <p>Hound Vault is a simple file hosting website created using MERN Stack. Users can upload and store files online after creating their profile.</p>
+            </div>
+
+            <div class="work-experience">
+              <h3 class="h5 date-title">Bilingual E-Bill generator</h3>
+              
+              <p>This Bilingual E-Bill generator is a simple application created using JAVA that allows users to enter their details and generates bill in 2 languages.</p>
+            </div>
+            <div class="work-experience">
+              <h3 class="h5 date-title">Cine-Ticket Reservation</h3>
+              
+              <p>Cine-Ticket Reservation System is a java application that allows users to book tickets and stores data of users and bookings separately.</p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="card" id="d">
+          <div class="card-block">
+            <h2>Education</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="education-experience">
+                  <h3 class="h5 date-title">Bharathi Vidya Bhavan</h3>
+                  <small class="date"> Schooling upto 2021</small>
+                  <p>Erode-12</p>
+
+                </div>
+                 </div>
+                 <div class="col-md-4">
+                  <div class="education-experience">
+                    <h3 class="h5 date-title">Karpagam College of Engineering</h3>
+                    <small class="date">2021-2025</small>
+                    <p>Coimbatore-32</p>
+
+                  </div>
+                   </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-block">
+            <h2>Language</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">English  <small>(L/S/R/W)</small></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">Tamil  <small>(L/S/R/W)</small></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="language-experience">
+                  <h3 class="h5">Hindi  <small>(R/W)</small></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      <div class="card" id="e">
+  <div class="card-block">
+    <h2>Skill/Proficiency</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="skill">
+          <h3 class="h5">C</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 40%;">40%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skill">
+          <h3 class="h5">Java</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Add more skills and proficiency bars as needed -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="skill">
+          <h3 class="h5">HTML</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 35%;">35%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skill">
+          <h3 class="h3">CSS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 35%;">35%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="skill">
+          <h3 class="h5">JavaScript</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%;">50%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skill">
+          <h3 class="h5">ReactJS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 45%;">45%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="skill">
+          <h3 class="h5">Golang</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 30%;">30%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+
+        
+  
+        
+        <div class="card" id="f">
+          <div class="card-block">
+            <h2>Social Network</h2>
+            <div class="row">
+              <div class="col-md-3">
+                <p class="social-buttons"><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FSreeKrishnnaa" title=""><span class="social-round-icon fa-icon"><i class="fa fa-mobile"></i></span>X </a></p>
+              </div>
+              
+              <div class="col-md-3">
+                <p class="social-buttons"><a href="https://www.linkedin.com/in/sree-krishnnaa-anand-8a029626a" title=""><span class="social-round-icon fa-icon"><i class="fa fa-linkedin"></i></span>Linked-in</a></p>
+              </div>
+             
+              <div class="col-md-3">
+                <p class="social-buttons"><a href="https://github.com/SreeKrishnnaa" title=""><span class="social-round-icon fa-icon"><i class="fa fa-github"></i></span> GitHub</a></p>
+              </div>
+              <div class="col-md-3">
+                <p class="social-buttons"><a href="https://www.instagram.com/satirical_imp?igsh=aXl4ZTRzam9samI4" title=""><span class="social-round-icon fa-icon"><i class="fa fa-instagram"></i></span>Instagram</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+ </div>
+ <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sreekrishnnaa2003@gmail.com" class="blue-button">Write Me Through Email</a>
+
+
+</main>
+<footer class="footer-container white-text-container text-center">
+   
+        
+  <p>© All rights reserved.Mmm....Looks like you've reached the end!? <img src="https://ask.libreoffice.org/uploads/asklibo/original/3X/3/5/35664d063435f940bda4cb3bb31ea0a6c5fed2f4.gif" alt="End GIF" width="80" height="80"></p>
+  
+       
+</footer>
+
+
+
+
+
+</html>
